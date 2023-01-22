@@ -1,6 +1,4 @@
 
-
-
 // Uncomment the following line to enable serial debug output
 //#define ENABLE_DEBUG
 
@@ -33,10 +31,6 @@
 #define EVENT_WAIT_TIME   60000 
 
 
-
-
-
-
 unsigned long startMillis;
 
 int poleStep = 0; 
@@ -52,11 +46,6 @@ int pole1[] ={0,0,0,0, 0,1,1,1, 0};//pole1, 8 step values
 int pole2[] ={0,0,0,1, 1,1,0,0, 0};//pole2, 8 step values
 int pole3[] ={0,1,1,1, 0,0,0,0, 0};//pole3, 8 step values
 int pole4[] ={1,1,0,0, 0,0,0,1, 0};//pole4, 8 step values
-
-
-
-
-
 
 
 int blindsPosition = 0;
