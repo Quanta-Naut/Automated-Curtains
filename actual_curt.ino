@@ -21,12 +21,12 @@
 
 #include "SinricProBlinds.h"
 
-#define WIFI_SSID         "Hathway_Siva"    
-#define WIFI_PASS         "9242316191"
-#define APP_KEY           "47fe83bf-65cb-49ec-a0ff-517549715ba9"      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
-#define APP_SECRET        "f8b04f24-c539-4401-862b-a2c9559dc9eb-c7c58f7b-5d98-46b1-8fcd-cdc26a9a29d4"   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
+#define WIFI_SSID         "#########"    //wifi-username
+#define WIFI_PASS         "#########"    //wifi-password
+#define APP_KEY           "sinric-app-key"      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
+#define APP_SECRET        "sinric-app-secret-key"   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
 
-#define BLINDS_ID         "630b275bda0cc6324376edd3" 
+#define BLINDS_ID         "sinric-device-id" 
 #define BAUD_RATE         115200                // Change baudrate to your need
 #define EVENT_WAIT_TIME   60000 
 
